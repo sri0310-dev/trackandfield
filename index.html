@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Track & Field | Team Sign-Up</title>
+  <meta name="description" content="Official site of the School Track & Field team. Meet the team, see upcoming competitions, and sign up to join.">
+  <meta name="theme-color" content="#101820">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="School Track & Field">
+  <meta property="og:description" content="Train hard, compete with your classmates, and represent our school at upcoming competitions.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1200&q=80">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#about">Skip to main content</a>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="logo">TRACK<span>&</span>FIELD</div>
+
+    <ul>
+      <li><a href="#about">Team</a></li>
+      <li><a href="#events">Competitions</a></li>
+      <li><a href="#signup">Sign Up</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Run. Jump. <span>Throw.</span></h1>
+
+      <p>
+        Welcome to our school's Track & Field team.
+        Train hard, compete with your classmates, and represent
+        our school at upcoming competitions.
+      </p>
+
+      <a href="#signup" class="btn">Join the Team &rarr;</a>
+    </div>
+  </header>
+
+
+  <!-- ABOUT -->
+  <section id="about">
+
+    <div class="section-title">
+      <h2>About the Team</h2>
+      <p>There's a place for every athlete.</p>
+    </div>
+
+    <div class="team-grid">
+
+      <div class="team-card">
+        <div class="icon" aria-hidden="true">🏃</div>
+        <h3>Sprints & Relays</h3>
+        <p>
+          100m, 200m, 400m and relay events for athletes
+          who love speed and explosive racing.
+        </p>
+      </div>
+
+      <div class="team-card">
+        <div class="icon" aria-hidden="true">🏅</div>
+        <h3>Middle & Long Distance</h3>
+        <p>
+          800m, 1500m, 3000m and other endurance events
+          for athletes who enjoy challenging their limits.
+        </p>
+      </div>
+
+      <div class="team-card">
+        <div class="icon" aria-hidden="true">🦘</div>
+        <h3>Field Events</h3>
+        <p>
+          Long jump, high jump, shot put and other
+          field events are open to students of all experience levels.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- COMPETITIONS -->
+  <section id="events">
+
+    <div class="section-title">
+      <h2>Upcoming Competitions</h2>
+      <p>Competition dates will be updated throughout the season.</p>
+    </div>
+
+    <div class="events-container">
+
+      <div class="event">
+        <div class="date">
+          <span class="day">05</span>
+          SEP
+        </div>
+
+        <div class="event-info">
+          <h3>School Athletics Meet</h3>
+          <p>School Track &bull; All eligible athletes</p>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="date">
+          <span class="day">19</span>
+          SEP
+        </div>
+
+        <div class="event-info">
+          <h3>Inter-School Track Meet</h3>
+          <p>Home Track &bull; Selected athletes</p>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="date">
+          <span class="day">10</span>
+          OCT
+        </div>
+
+        <div class="event-info">
+          <h3>Regional Athletics Championship</h3>
+          <p>Venue TBA &bull; Qualifying athletes</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SIGN UP -->
+  <section id="signup">
+
+    <div class="section-title">
+      <h2>Team Sign-Up</h2>
+      <p>Fill out the form below to register your interest.</p>
+    </div>
+
+    <div class="signup-container">
+
+      <form id="signupForm">
+
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="grade">Grade / Year *</label>
+
+          <select id="grade" name="grade" required>
+            <option value="">Select your year</option>
+            <option>Year 7</option>
+            <option>Year 8</option>
+            <option>Year 9</option>
+            <option>Year 10</option>
+            <option>Year 11</option>
+            <option>Year 12</option>
+            <option>Year 13</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="email">School Email *</label>
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@school.edu"
+            required
+          >
+        </div>
+
+        <div class="form-group">
+          <label>Events You're Interested In</label>
+
+          <div class="checkbox-group">
+
+            <label>
+              <input type="checkbox" name="event" value="100m">
+              100m
+            </label>
+
+            <label>
+              <input type="checkbox" name="event" value="200m">
+              200m
+            </label>
+
+            <label>
+              <input type="checkbox" name="event" value="400m">
+              400m
+            </label>
+
+            <label>
+              <input type="checkbox" name="event" value="800m">
+              800m
+            </label>
+
+            <label>
+              <input type="checkbox" name="event" value="1500m">
+              1500m
+            </label>
+
+            <label>
+              <input type="checkbox" name="event" value="3000m">
+              3000m
+            </label>
+
+            <label>
+              <input type="checkbox" name="event" value="long-jump">
+              Long Jump
+            </label>
+
+            <label>
+              <input type="checkbox" name="event" value="high-jump">
+              High Jump
+            </label>
+
+            <label>
+              <input type="checkbox" name="event" value="shot-put">
+              Shot Put
+            </label>
+
+            <label>
+              <input type="checkbox" name="event" value="relay">
+              Relays
+            </label>
+
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="experience">Previous Athletics Experience</label>
+
+          <textarea
+            id="experience"
+            name="experience"
+            placeholder="Tell us about your previous experience, PBs, competitions, etc."
+          ></textarea>
+        </div>
+
+        <button class="btn" type="submit">
+          Submit Registration
+        </button>
+
+        <div class="form-message" id="formMessage" role="status">
+          &check; Thanks! Your registration has been submitted.
+        </div>
+
+      </form>
+
+    </div>
+  </section>
+
+
+  <!-- FAQ -->
+  <section id="faq">
+
+    <div class="section-title">
+      <h2>Frequently Asked Questions</h2>
+      <p>Everything you need to know before joining.</p>
+    </div>
+
+    <div class="faq-container">
+
+      <details>
+        <summary>Do I need previous track & field experience?</summary>
+        <p>
+          No. Beginners are welcome. Coaches will help you learn
+          the fundamentals and find events that suit you.
+        </p>
+      </details>
+
+      <details>
+        <summary>Do I have to compete?</summary>
+        <p>
+          Competition is encouraged, but speak with your coach
+          about your individual goals and circumstances.
+        </p>
+      </details>
+
+      <details>
+        <summary>What should I bring to training?</summary>
+        <p>
+          Bring suitable sports clothing, running shoes,
+          water, and anything your coach has specifically requested.
+        </p>
+      </details>
+
+      <details>
+        <summary>How will I know about competitions?</summary>
+        <p>
+          Competition dates will be posted on this page and
+          communicated through the school's normal team announcements.
+        </p>
+      </details>
+
+      <details>
+        <summary>Can I participate in multiple events?</summary>
+        <p>
+          Yes. Athletes can normally participate in multiple events,
+          although the final competition schedule and event limits
+          depend on the meet.
+        </p>
+      </details>
+
+      <details>
+        <summary>Who can I contact if I have questions?</summary>
+        <p>
+          Speak to the school's Track & Field coach or athletics
+          coordinator for questions about training, eligibility,
+          competitions, or team selection.
+        </p>
+      </details>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer id="contact">
+    <p>
+      <strong>School Track & Field</strong>
+    </p>
+
+    <p>
+      Train hard. Support your teammates. Represent your school.
+    </p>
+
+    <p>Questions? Contact the athletics coordinator at
+      <a href="mailto:athletics@yourschool.edu">athletics@yourschool.edu</a>
+    </p>
+
+    <p>&copy; 2026 School Athletics Department</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
