@@ -25,6 +25,11 @@ npx serve .
 
 ## Customize before going live
 
+- **Photos** — the hero, team cards, and gallery currently hotlink free
+  stock photos from Unsplash (real track & field action shots, not the
+  actual team). Swap them for real photos of your athletes as soon as you
+  have them: replace each `src`/background `url()` in `index.html`/`styles.css`
+  with a path into `assets/`, and add real team photos there.
 - **Contact email** — replace `athletics@yourschool.edu` in `index.html`
   (footer) with the real coach/coordinator address.
 - **Competition dates** — update the `#events` section with real fixtures.
